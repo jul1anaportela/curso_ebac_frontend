@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 10% auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+form {
+    margin-top: 5%;
+}
+
+input,
+button {
+    display: block;
+    padding: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color:cornflowerblue;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(73, 137, 255);
+}
+
+.success-message {
+    background-color: #27ae60;
+    padding: 16px;
+    color: white;
+    border-radius: 3px;
+    display: none;
+}
+
+.error-message{
+    display: none;
+    background-color: crimson;
+    color: aliceblue;
+    padding: 1%;
+    margin-bottom: 2%;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+input.error{
+    color: crimson;
+    border-color: crimson;
+    outline-color: crimson ;
+}
